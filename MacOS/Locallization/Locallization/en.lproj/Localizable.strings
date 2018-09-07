@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Locallization
+
+  Created by Ankit Kumar Bharti on 18/07/18.
+  Copyright © 2018 Exilant. All rights reserved.
+*/
+
+"message" = "Russian President Vladimir Putin on Monday described the probe by United Sates' Special Counsel Robert Mueller into Moscow's alleged election meddling in the U.S. as \"political games\" that should not be permitted to interfere with relations between the two countries.";
+"NEED" = "%@ need a %@";
+"NEEDS" = "A %2$@ what %1$@ needs";

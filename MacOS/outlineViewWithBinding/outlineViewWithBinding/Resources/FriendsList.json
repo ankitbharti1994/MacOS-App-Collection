@@ -1,0 +1,59 @@
+[
+  {
+    "branch": "Computer Science",
+    "students": [
+        {
+          "name": "ankit bharti",
+          "hobbies": [
+              "Playing Cricket", "Listening Songs"
+            ]
+        },
+        {
+          "name": "Rohit Shrivastva",
+          "hobbies": [
+              "Playing Football", "Exploring world", "Listening Songs", "Watching Movies"
+            ]
+        },
+        {
+          "name": "Kailash Kumar",
+          "hobbies": [
+              "Playing Chess"
+            ]
+        }
+      ]
+  },
+  {
+    "branch": "Electronics Engineering",
+    "students": [
+        {
+          "name": "Sonu Kumar",
+          "hobbies": [
+              "Playing Badminton", "Playing Football"
+            ]
+        },
+        {
+          "name": "Kajal Kumari",
+          "hobbies": [
+              "Touring World"
+            ]
+        }
+      ]
+  },
+  {
+    "branch": "Mechanical Engineering",
+    "students": [
+        {
+          "name": "Vijay Pandey",
+          "hobbies": [
+              "Watching Movies", "Eating local foods"
+            ]
+        },
+        {
+          "name": "Manish Kumar",
+          "hobbies": [
+              "Touring World"
+            ]
+        }
+      ]
+  }
+]

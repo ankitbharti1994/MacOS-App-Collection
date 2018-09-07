@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0868A80421424B1700056B00 /* NSButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0868A80321424B1700056B00 /* NSButtonExtension.swift */; };
+		0868A80621424F0A00056B00 /* ModelPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0868A80521424F0A00056B00 /* ModelPresentation.swift */; };
+		0868A8082142523500056B00 /* PresentationBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0868A8072142523500056B00 /* PresentationBackgroundView.swift */; };
+		0868A80B21425B4600056B00 /* LoginModelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0868A80A21425B4600056B00 /* LoginModelView.xib */; };
+		0868A80D21425B5A00056B00 /* LoginModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0868A80C21425B5A00056B00 /* LoginModelView.swift */; };
+		088352FA21412EB200F71ECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088352F921412EB200F71ECD /* AppDelegate.swift */; };
+		088352FC21412EB200F71ECD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088352FB21412EB200F71ECD /* MainViewController.swift */; };
+		088352FE21412EBA00F71ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088352FD21412EBA00F71ECD /* Assets.xcassets */; };
+		0883530121412EBA00F71ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088352FF21412EBA00F71ECD /* Main.storyboard */; };
+		0883530E2141315C00F71ECD /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0883530D2141315C00F71ECD /* ChannelViewController.swift */; };
+		088353102141317000F71ECD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0883530F2141317000F71ECD /* ChatViewController.swift */; };
+		088353122141318300F71ECD /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088353112141318300F71ECD /* MainWindowController.swift */; };
+		08835317214133F900F71ECD /* NSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08835316214133F900F71ECD /* NSColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0868A80321424B1700056B00 /* NSButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSButtonExtension.swift; sourceTree = "<group>"; };
+		0868A80521424F0A00056B00 /* ModelPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPresentation.swift; sourceTree = "<group>"; };
+		0868A8072142523500056B00 /* PresentationBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationBackgroundView.swift; sourceTree = "<group>"; };
+		0868A80A21425B4600056B00 /* LoginModelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginModelView.xib; sourceTree = "<group>"; };
+		0868A80C21425B5A00056B00 /* LoginModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModelView.swift; sourceTree = "<group>"; };
+		088352F621412EB200F71ECD /* Slack001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slack001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		088352F921412EB200F71ECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		088352FB21412EB200F71ECD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		088352FD21412EBA00F71ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0883530021412EBA00F71ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0883530221412EBA00F71ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0883530321412EBA00F71ECD /* Slack001.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slack001.entitlements; sourceTree = "<group>"; };
+		0883530D2141315C00F71ECD /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		0883530F2141317000F71ECD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		088353112141318300F71ECD /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		08835316214133F900F71ECD /* NSColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088352F321412EB200F71ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0868A80921425B2A00056B00 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				0868A80A21425B4600056B00 /* LoginModelView.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		088352ED21412EB200F71ECD = {
+			isa = PBXGroup;
+			children = (
+				088352F821412EB200F71ECD /* Slack001 */,
+				088352F721412EB200F71ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088352F721412EB200F71ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088352F621412EB200F71ECD /* Slack001.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088352F821412EB200F71ECD /* Slack001 */ = {
+			isa = PBXGroup;
+			children = (
+				0868A80921425B2A00056B00 /* Xibs */,
+				088353132141334400F71ECD /* Utility */,
+				0883530B2141310300F71ECD /* Controller */,
+				0883530A214130FD00F71ECD /* View */,
+				08835309214130F600F71ECD /* Model */,
+				0883530C2141312300F71ECD /* Supporting Files */,
+				088352FD21412EBA00F71ECD /* Assets.xcassets */,
+				0883530221412EBA00F71ECD /* Info.plist */,
+				0883530321412EBA00F71ECD /* Slack001.entitlements */,
+			);
+			path = Slack001;
+			sourceTree = "<group>";
+		};
+		08835309214130F600F71ECD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0883530A214130FD00F71ECD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0868A8072142523500056B00 /* PresentationBackgroundView.swift */,
+				0868A80C21425B5A00056B00 /* LoginModelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0883530B2141310300F71ECD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				088352FB21412EB200F71ECD /* MainViewController.swift */,
+				0883530D2141315C00F71ECD /* ChannelViewController.swift */,
+				0883530F2141317000F71ECD /* ChatViewController.swift */,
+				088353112141318300F71ECD /* MainWindowController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0883530C2141312300F71ECD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				088352F921412EB200F71ECD /* AppDelegate.swift */,
+				088352FF21412EBA00F71ECD /* Main.storyboard */,
+				0868A80521424F0A00056B00 /* ModelPresentation.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		088353132141334400F71ECD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				08835315214133D800F71ECD /* Extension */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		08835315214133D800F71ECD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				08835316214133F900F71ECD /* NSColorExtension.swift */,
+				0868A80321424B1700056B00 /* NSButtonExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088352F521412EB200F71ECD /* Slack001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0883530621412EBA00F71ECD /* Build configuration list for PBXNativeTarget "Slack001" */;
+			buildPhases = (
+				088352F221412EB200F71ECD /* Sources */,
+				088352F321412EB200F71ECD /* Frameworks */,
+				088352F421412EB200F71ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slack001;
+			productName = Slack001;
+			productReference = 088352F621412EB200F71ECD /* Slack001.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088352EE21412EB200F71ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Exilant;
+				TargetAttributes = {
+					088352F521412EB200F71ECD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 088352F121412EB200F71ECD /* Build configuration list for PBXProject "Slack001" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088352ED21412EB200F71ECD;
+			productRefGroup = 088352F721412EB200F71ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088352F521412EB200F71ECD /* Slack001 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088352F421412EB200F71ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0868A80B21425B4600056B00 /* LoginModelView.xib in Resources */,
+				088352FE21412EBA00F71ECD /* Assets.xcassets in Resources */,
+				0883530121412EBA00F71ECD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088352F221412EB200F71ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088352FC21412EB200F71ECD /* MainViewController.swift in Sources */,
+				0883530E2141315C00F71ECD /* ChannelViewController.swift in Sources */,
+				0868A8082142523500056B00 /* PresentationBackgroundView.swift in Sources */,
+				08835317214133F900F71ECD /* NSColorExtension.swift in Sources */,
+				0868A80D21425B5A00056B00 /* LoginModelView.swift in Sources */,
+				088353102141317000F71ECD /* ChatViewController.swift in Sources */,
+				088352FA21412EB200F71ECD /* AppDelegate.swift in Sources */,
+				088353122141318300F71ECD /* MainWindowController.swift in Sources */,
+				0868A80421424B1700056B00 /* NSButtonExtension.swift in Sources */,
+				0868A80621424F0A00056B00 /* ModelPresentation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		088352FF21412EBA00F71ECD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0883530021412EBA00F71ECD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0883530421412EBA00F71ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0883530521412EBA00F71ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0883530721412EBA00F71ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Slack001/Slack001.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Slack001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exilant.Slack001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		0883530821412EBA00F71ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Slack001/Slack001.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Slack001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exilant.Slack001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088352F121412EB200F71ECD /* Build configuration list for PBXProject "Slack001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0883530421412EBA00F71ECD /* Debug */,
+				0883530521412EBA00F71ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0883530621412EBA00F71ECD /* Build configuration list for PBXNativeTarget "Slack001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0883530721412EBA00F71ECD /* Debug */,
+				0883530821412EBA00F71ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088352EE21412EB200F71ECD /* Project object */;
+}

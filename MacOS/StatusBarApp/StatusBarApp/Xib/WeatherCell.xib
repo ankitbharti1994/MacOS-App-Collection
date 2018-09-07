@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView distribution="fill" orientation="vertical" alignment="centerX" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gLW-Hp-Bzc">
+                    <rect key="frame" x="8" y="8" width="109" height="109"/>
+                    <subviews>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gef-KJ-fQ7">
+                            <rect key="frame" x="25" y="89" width="59" height="20"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Monday" id="8y5-9u-Q5m">
+                                <font key="font" size="14" name="HelveticaNeue"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l3l-Sb-weK">
+                            <rect key="frame" x="31" y="33" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="GX0-gW-dsq"/>
+                                <constraint firstAttribute="width" constant="48" id="pHd-6H-3fX"/>
+                            </constraints>
+                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Clear" id="XtB-4v-NdV"/>
+                        </imageView>
+                        <stackView distribution="fillEqually" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YWY-bW-0ej">
+                            <rect key="frame" x="0.0" y="0.0" width="109" height="25"/>
+                            <subviews>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lzL-yL-sic">
+                                    <rect key="frame" x="-2" y="3" width="55" height="20"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="22 °" id="cQd-nC-8gF">
+                                        <font key="font" size="14" name="HelveticaNeue"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="06L-Ab-xrx">
+                                    <rect key="frame" x="57" y="3" width="54" height="20"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="30 °" id="arl-cV-A4d">
+                                        <font key="font" size="14" name="HelveticaNeue"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="YWY-bW-0ej" firstAttribute="width" secondItem="gLW-Hp-Bzc" secondAttribute="width" id="UzD-zS-lv4"/>
+                    </constraints>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="gLW-Hp-Bzc" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="swh-l0-vQp"/>
+                <constraint firstAttribute="bottom" secondItem="gLW-Hp-Bzc" secondAttribute="bottom" constant="8" id="tCw-c9-iBn"/>
+                <constraint firstAttribute="trailing" secondItem="gLW-Hp-Bzc" secondAttribute="trailing" constant="8" id="uks-va-y9H"/>
+                <constraint firstItem="gLW-Hp-Bzc" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="8" id="z9V-qe-ayX"/>
+            </constraints>
+            <point key="canvasLocation" x="130.5" y="168.5"/>
+        </customView>
+        <collectionViewItem id="xnI-7q-tan" customClass="WeatherCell" customModule="StatusBarApp" customModuleProvider="target">
+            <connections>
+                <outlet property="dayLabel" destination="gef-KJ-fQ7" id="ulS-ZD-cc9"/>
+                <outlet property="maximumTempLabel" destination="06L-Ab-xrx" id="frL-b9-HjF"/>
+                <outlet property="minimumTempLabel" destination="lzL-yL-sic" id="qFD-1h-RWK"/>
+                <outlet property="view" destination="c22-O7-iKe" id="4YI-h3-4bU"/>
+                <outlet property="weatherTypeImageView" destination="l3l-Sb-weK" id="Qix-pR-9sw"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+    <resources>
+        <image name="Clear" width="107" height="107"/>
+    </resources>
+</document>

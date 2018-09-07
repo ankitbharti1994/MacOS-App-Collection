@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089DF92B20EC85C900214B8A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089DF92A20EC85C900214B8A /* Utility.swift */; };
+		08DE2BD620EB289900C29FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE2BD520EB289900C29FD7 /* AppDelegate.swift */; };
+		08DE2BD820EB289900C29FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE2BD720EB289900C29FD7 /* ViewController.swift */; };
+		08DE2BDA20EB289B00C29FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08DE2BD920EB289B00C29FD7 /* Assets.xcassets */; };
+		08DE2BDD20EB289B00C29FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DE2BDB20EB289B00C29FD7 /* Main.storyboard */; };
+		08DE2BF020EB339B00C29FD7 /* DrawingTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE2BEF20EB339B00C29FD7 /* DrawingTextTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08DE2BF220EB339B00C29FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08DE2BCA20EB289900C29FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08DE2BD120EB289900C29FD7;
+			remoteInfo = DrawingText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089DF92A20EC85C900214B8A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		08DE2BD220EB289900C29FD7 /* DrawingText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DE2BD520EB289900C29FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08DE2BD720EB289900C29FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08DE2BD920EB289B00C29FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08DE2BDC20EB289B00C29FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08DE2BDE20EB289B00C29FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08DE2BDF20EB289B00C29FD7 /* DrawingText.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrawingText.entitlements; sourceTree = "<group>"; };
+		08DE2BED20EB339B00C29FD7 /* DrawingTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DE2BEF20EB339B00C29FD7 /* DrawingTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingTextTests.swift; sourceTree = "<group>"; };
+		08DE2BF120EB339B00C29FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08DE2BCF20EB289900C29FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08DE2BEA20EB339B00C29FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08DE2BC920EB289900C29FD7 = {
+			isa = PBXGroup;
+			children = (
+				08DE2BD420EB289900C29FD7 /* DrawingText */,
+				08DE2BEE20EB339B00C29FD7 /* DrawingTextTests */,
+				08DE2BD320EB289900C29FD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08DE2BD320EB289900C29FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08DE2BD220EB289900C29FD7 /* DrawingText.app */,
+				08DE2BED20EB339B00C29FD7 /* DrawingTextTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08DE2BD420EB289900C29FD7 /* DrawingText */ = {
+			isa = PBXGroup;
+			children = (
+				08DE2BD520EB289900C29FD7 /* AppDelegate.swift */,
+				08DE2BD720EB289900C29FD7 /* ViewController.swift */,
+				089DF92A20EC85C900214B8A /* Utility.swift */,
+				08DE2BD920EB289B00C29FD7 /* Assets.xcassets */,
+				08DE2BDB20EB289B00C29FD7 /* Main.storyboard */,
+				08DE2BDE20EB289B00C29FD7 /* Info.plist */,
+				08DE2BDF20EB289B00C29FD7 /* DrawingText.entitlements */,
+			);
+			path = DrawingText;
+			sourceTree = "<group>";
+		};
+		08DE2BEE20EB339B00C29FD7 /* DrawingTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				08DE2BEF20EB339B00C29FD7 /* DrawingTextTests.swift */,
+				08DE2BF120EB339B00C29FD7 /* Info.plist */,
+			);
+			path = DrawingTextTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08DE2BD120EB289900C29FD7 /* DrawingText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DE2BE220EB289B00C29FD7 /* Build configuration list for PBXNativeTarget "DrawingText" */;
+			buildPhases = (
+				08DE2BCE20EB289900C29FD7 /* Sources */,
+				08DE2BCF20EB289900C29FD7 /* Frameworks */,
+				08DE2BD020EB289900C29FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingText;
+			productName = DrawingText;
+			productReference = 08DE2BD220EB289900C29FD7 /* DrawingText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08DE2BEC20EB339B00C29FD7 /* DrawingTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DE2BF420EB339B00C29FD7 /* Build configuration list for PBXNativeTarget "DrawingTextTests" */;
+			buildPhases = (
+				08DE2BE920EB339B00C29FD7 /* Sources */,
+				08DE2BEA20EB339B00C29FD7 /* Frameworks */,
+				08DE2BEB20EB339B00C29FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08DE2BF320EB339B00C29FD7 /* PBXTargetDependency */,
+			);
+			name = DrawingTextTests;
+			productName = DrawingTextTests;
+			productReference = 08DE2BED20EB339B00C29FD7 /* DrawingTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08DE2BCA20EB289900C29FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Exilant;
+				TargetAttributes = {
+					08DE2BD120EB289900C29FD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					08DE2BEC20EB339B00C29FD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 08DE2BD120EB289900C29FD7;
+					};
+				};
+			};
+			buildConfigurationList = 08DE2BCD20EB289900C29FD7 /* Build configuration list for PBXProject "DrawingText" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08DE2BC920EB289900C29FD7;
+			productRefGroup = 08DE2BD320EB289900C29FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08DE2BD120EB289900C29FD7 /* DrawingText */,
+				08DE2BEC20EB339B00C29FD7 /* DrawingTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08DE2BD020EB289900C29FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DE2BDA20EB289B00C29FD7 /* Assets.xcassets in Resources */,
+				08DE2BDD20EB289B00C29FD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08DE2BEB20EB339B00C29FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08DE2BCE20EB289900C29FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DE2BD820EB289900C29FD7 /* ViewController.swift in Sources */,
+				08DE2BD620EB289900C29FD7 /* AppDelegate.swift in Sources */,
+				089DF92B20EC85C900214B8A /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08DE2BE920EB339B00C29FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DE2BF020EB339B00C29FD7 /* DrawingTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08DE2BF320EB339B00C29FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08DE2BD120EB289900C29FD7 /* DrawingText */;
+			targetProxy = 08DE2BF220EB339B00C29FD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08DE2BDB20EB289B00C29FD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08DE2BDC20EB289B00C29FD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08DE2BE020EB289B00C29FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08DE2BE120EB289B00C29FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		08DE2BE320EB289B00C29FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrawingText/DrawingText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawingText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exilant.DrawingText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		08DE2BE420EB289B00C29FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrawingText/DrawingText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawingText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exilant.DrawingText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		08DE2BF520EB339B00C29FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawingTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exilant.DrawingTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingText.app/Contents/MacOS/DrawingText";
+			};
+			name = Debug;
+		};
+		08DE2BF620EB339B00C29FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrawingTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exilant.DrawingTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawingText.app/Contents/MacOS/DrawingText";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08DE2BCD20EB289900C29FD7 /* Build configuration list for PBXProject "DrawingText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DE2BE020EB289B00C29FD7 /* Debug */,
+				08DE2BE120EB289B00C29FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08DE2BE220EB289B00C29FD7 /* Build configuration list for PBXNativeTarget "DrawingText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DE2BE320EB289B00C29FD7 /* Debug */,
+				08DE2BE420EB289B00C29FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08DE2BF420EB339B00C29FD7 /* Build configuration list for PBXNativeTarget "DrawingTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DE2BF520EB339B00C29FD7 /* Debug */,
+				08DE2BF620EB339B00C29FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08DE2BCA20EB289900C29FD7 /* Project object */;
+}
